@@ -1,0 +1,248 @@
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+
+*{
+	margin:0;
+	padding:0;
+
+}
+
+
+/*-------------------------
+	General Styles
+--------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800);
+
+/*body{
+	background-size: 100% auto;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	
+}*/
+body{
+	/*background: url(../img/cidade.png) repeat-x fixed bottom;*/
+	background: url(../img/bg_cinza.png);
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	
+}
+
+.cidade{
+
+		background: url(../img/cidade.png) repeat-x fixed bottom;
+		width: 100%;
+		height: 500px;
+		position:absolute;
+	    bottom:0;
+	    z-index: -10;
+
+
+}
+
+
+.conectividade{
+
+		background: url(../img/conectividade.png) no-repeat fixed bottom;
+		width: 1200px;
+		height: 480px;
+		position:absolute;
+	    bottom:0;
+	    z-index: -20;
+
+}
+
+
+.patrocine{
+	padding-top:50px;
+	z-index: 400;
+}
+
+.formulario{
+	padding-top:15px;
+	z-index: 400;
+}
+/*.cidade{
+	position: fixed;
+	margin: 0;
+	bottom: 0;
+	padding: 0;
+	width: 100%;
+	background: url(../img/cidade.png) repeat-x;
+	height: 320px;
+	z-index: -10;
+}*/
+
+h1{
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 300;
+	color: #01638e;
+}
+
+h2{
+	font-size: 13px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+h3{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+h4{
+	font-size: 30px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #01638e;
+}
+
+
+.gap {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 0;
+  
+}
+
+
+.seti{
+	background-image: url(../img/7.png);
+	height: auto;
+}
+
+
+.topo{
+	background-image: url(../img/topo.png) ;
+	background-size: 100%;
+	height: 10px;
+	margin: 0;
+
+}
+
+.logo{
+
+}
+
+.box{
+	background-color: #000;
+	width: 100%;
+}
+
+
+
+.organizador{
+	padding-right: 20px;
+	padding-top: 10px;
+}
+
+footer{
+	padding-top: 50px;
+	margin: auto 0 auto 0;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+html{
+	padding: 0 auto;
+}
+
+form{
+	z-index: 500;
+}
+
+
+
+/*----------------------------
+	Main Section
+-----------------------------*/
+
+#contador {
+	padding-top: 20px;
+	
+}
+
+/*----------------------------
+	Contador
+-----------------------------*/
+#dia {
+	font-size: 30px;
+	background-color: #23273A;
+	border-radius: 8px;
+	padding: 5px 10px;
+	color: white;
+	font-weight: lighter;
+}
+
+#hora, #min, #seg {
+	font-size: 30px;
+	background-color: #23273A;
+	border-radius: 7px;
+	padding: 5px 19px;
+	color: white;
+	font-weight: lighter;
+}
+
+.sep {
+	font-size: 30px;
+	color: #23273A;
+	font-weight: normal;
+}
+
+#d {
+	position: absolute;
+	margin-top: 45px;
+	margin-left: -72px;
+	color: #23273A;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+#h {
+	position: absolute;
+	margin-top: 45px;
+	margin-left: -75px;
+	color: #23273A;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+#m {
+	position: absolute;
+	margin-top: 45px;
+	margin-left: -82px;
+	color: #23273A;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+#s {
+	position: absolute;
+	margin-top: 45px;
+	margin-left: -70px;
+	color: #23273A;
+	font-size: 13px;
+	font-weight: normal;
+
+}
+
+.ButtonGreen{
+	background-color: #27ae60;
+	border-color: #27ae60;
+	color: #fff;
+}
+
+.ButtonGreen:hover{
+	background-color: #2980b9;
+	color: #fff;
+	border-color:  #2980b9;	
+}

@@ -1,0 +1,142 @@
+@import "http://fonts.googleapis.com/css?family=Raleway";
+/*----------------------------------------------
+CSS settings for HTML div Exact Center
+------------------------------------------------*/
+#abc {
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto;
+z-index: 9999;
+}
+
+#def {
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto;
+z-index: 9999;
+}
+img#close {
+position:absolute;
+right:-14px;
+top:-14px;
+cursor:pointer
+}
+div#popupContact {
+position:absolute;
+left:50%;
+top:17%;
+margin-left:-202px;
+font-family:'Raleway',sans-serif
+}
+div#organizadores {
+position:absolute;
+left:50%;
+top:17%;
+margin-left:-202px;
+font-family:'Raleway',sans-serif
+}
+
+form {
+max-width:420px;
+min-width:300px;
+padding:10px 20px;
+border:2px solid gray;
+border-radius:10px;
+font-family:raleway;
+background-color:#fff
+}
+hr {
+border:0;
+border-top:3px solid #777777;
+}
+input[type=text] {
+width:82%;
+padding:10px;
+margin-top:30px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+font-family:raleway
+}
+#name {
+background-image:url(img/name.jpg);
+background-repeat:no-repeat;
+background-position:5px 9px
+}
+#email {
+background-image:url(img/email.png);
+background-repeat:no-repeat;
+background-position:5px 10px
+}
+textarea {
+background-image:url(img/msg.png);
+background-repeat:no-repeat;
+background-position:5px 11px;
+width:82%;
+height:95px;
+padding:10px;
+resize:none;
+margin-top:30px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+font-family:raleway;
+margin-bottom:30px;
+margin-top:30px;
+}
+#submit {
+text-decoration:none;
+width:82%;
+text-align:center;
+display:block;
+background-color:#3399cc;
+color:#fff;
+border:1px solid #006699;
+padding:10px 0;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-top:30px;
+margin-bottom:30px;
+margin-left: 34px;
+}
+
+#submit:hover {
+	background: #006699;
+}
+span {
+color:red;
+font-weight:700
+}
+button {
+width:10%;
+height:45px;
+border-radius:3px;
+background-color:#cd853f;
+color:#fff;
+font-family:'Raleway',sans-serif;
+font-size:18px;
+cursor:pointer
+}
+#bcontato {
+	color: #23273A;
+	font-weight: normal;
+}
+#titulocontato {
+	margin: 0;
+	padding: 20px 0 10px 0;
+	font-size: 22px;
+	text-transform: none;
+}
